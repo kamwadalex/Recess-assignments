@@ -1,2 +1,2 @@
-items = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape"]
+items = ["water", "bread", "milk", "sugar", "rice", "salt", "oil"]
 print(items[2:5])

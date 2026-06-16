@@ -1,4 +1,4 @@
-age = 25
-name = "John"
+age = 16
+name = "Alex"
 result = name + str(age)
 print(result)

@@ -1,2 +1,2 @@
-colors = ("red", "blue", "green")
+colors = ("red", "blue", "yellow")
 print(colors * 3)

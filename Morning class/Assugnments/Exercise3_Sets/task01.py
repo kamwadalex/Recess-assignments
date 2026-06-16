@@ -1,2 +1,2 @@
-beverages = set(["coffee", "tea", "juice"])
+beverages = set(["coffee", "tea", "soda"])
 print(beverages)
