@@ -1,11 +1,10 @@
-import re
 
 contacts = []
 
 
 def validate_phone(phone):
-    if not re.fullmatch(r'[\d\-\+]+', phone):
-        print("Error: Phone number must contain only digits, hyphens, or '+' (e.g., +256-701-123456).")
+    if not all(c.isdigit() or c in '-+' for c in phone):
+        print("Error: Phone number must contain only digits, hyphens, or '+'.")
         return False
     return True
 
